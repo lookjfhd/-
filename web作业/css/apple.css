@@ -1,0 +1,16 @@
+h1{ 
+	color:black;
+	font-family: "times new roman";
+	font-style: inherit;
+}
+.button{
+	color: black;
+	background-color: #8A2BE2;
+	font-family: times;
+	font-size: large;
+	font-weight: 500;
+	text-align: center;
+}
+#container{
+	text-align: center;
+}

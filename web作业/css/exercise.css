@@ -1,0 +1,72 @@
+.un{
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    color: rgb(42, 81, 107);
+    
+
+}
+.ab,
+.ad{
+    width: 30%;
+    float: left;
+    margin: 0.6em;
+    height: 600px;
+    
+
+}
+.ac{
+    width: 30%;
+    float: left;
+    margin: 0.6em;
+    height: 600px;
+    
+}
+p{
+
+height: 450px;
+}
+h1{
+    text-align: center;
+   color: rgb(32, 159, 218); 
+   
+   
+}
+body{
+    background-color: rgba(122, 112, 112, 0.356);
+    
+    
+}
+
+#e{
+    background-color: rgb(52, 225, 231);
+}
+.k{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    filter: opacity(0.6);
+    border-style: groove;
+    border-radius:35px;
+    text-indent: 5px;
+    background-color: thistle;
+}
+.com{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(183, 192, 162),rgb(116, 22, 22),rgb(55, 13, 133),0;
+    border-style: groove;
+    border-color: teal;
+    text-indent: 10px;
+    border-radius:35px
+}
+.ump{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(20, 54, 206, 0.507);
+    border-style: groove;
+    border-color: rgb(138, 185, 185);
+    text-indent: 5px;
+    border-radius:35px

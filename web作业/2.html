@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"><link rel="stylesheet" type="text/css" href="css/happy.css">
+		<link rel="stylesheet" type="text/css" href="css/apple.css">
+		<title>锻炼开始</title>
+		<Meta charset="utf-8">
+		<style type="text/css">
+			p{font-family: times;color: black;size: a4;font-weight: 1000;}
+			#i{border: #000000;border-style: double;border-width: 10px;background-color: lightblue;border-radius: 10px;
+				box-shadow: 10px 10px 5px pink;text-align: center;width: 31.25rem;font-family: 黑体;
+			}
+			#header{background-image: url(k.jpg);border-style: groove;
+				
+			}
+			#right{
+				position: absolute;top: 195px;left: 560px;text-align: center;
+				width: 600px;height:300px ;border:10px double black;background-color:lightgreen;border-radius: 5%;box-shadow: 10px 10px 5px pink;
+				}
+			#you{
+				position: absolute;top:195px;left: 1200px;text-align: center;border-radius: 10%;
+				width: 280px;height: 300px;border: 10px double black;background-color: lightgoldenrodyellow;box-shadow: 10px 10px 5px pink;
+				}
+			}
+				
+		</style>
+		<script type="text/javascript">
+			function $ (id){
+				return document.getElementById(id);
+			}
+			function sancu(){
+				$("sc").value=""
+			}
+			
+			function deleteText(){
+				$("target").value="";
+			}
+			function over(){
+				$("b1").src="a16.jpg";
+			}
+			function out(){
+				$("b1").src="a5.png";
+			}
+			function ov(){
+				$("b3").src="a9.jpg";
+			}
+			function o(){
+				$("b3").src="a12.jpg";
+			}function oe(){
+				$("b4").src="a13.jpg";
+			}
+			function e(){
+				$("b4").src="f1.jpg";}
+		</script>
+		</head>
+		<body background=".jpg">
+		<div id="header">
+		    <h1><center>快乐的一天</center></h1>
+		</div>
+		<ul id="z">
+			<li><a href="1.html">College Life</a></li>
+			<li><a href="2.html">Time Mangement</a></li>
+			<li><a href="3.html">Read</a></li>
+			<li><a href="4.html">Video</a></li>
+			<li><a href="6.html">Challenge</a></li>
+		</ul>
+		<h2 style="list-style-type: asterisks;">坚持自己每天的计划</h2>
+	<div id="i">
+		<h3>锻炼计划表</h3>
+	<form>
+		姓名：
+		<input type="text"id="sc">
+		性别：
+		<input type="text"id="sc"><br><br>
+		你觉得锻炼的时间怎么安排?<br>
+		经常<input  type="radio"name="o">
+		偶尔<input  type="radio"name="o">
+		每天<input  type="radio"name="o">
+		<select>
+			<option>一周一次</option>
+			<option>一周两次</option>
+			<option>一周三次</option>
+		</select>
+	</form>
+	<textarea cols="40"rows="10"id="target">一周的计划:</textarea>
+	<input type="submit"value="点击"ondblclick="deleteText();">
+	<input type="button"value="删除"onclick="sancu()">
+	</div>	
+	<br>
+	<div id="right">
+	
+		<p>今天的计划是什么</p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+		<p><u>...................................................................</u></p>
+	</div>
+	<div id="you"><br><br>
+		<p>......................................</p>
+		<p>......................................</p>
+		<p>......................................</p>
+		<p>......................................</p>
+		<p>......................................</p>
+		<p>......................................</p>
+	</div>
+	<hr color="#000000"size="7">
+	<img src="a5.png" width="291"height="200"border="1" id="b1"onmouseover="over();"onmouseout="out();">
+	<img src="g.jpg"width="291"height="200"border="1" id="b2"onmouseover="ove();"onmouseout="ou();">
+	<img src="f.jpg"width="291"height="200"border="1"id="b3"onmouseover="ov();"onmouseout="o()";>
+	<img src="a1.jpg"width="291"height="200"border="1">
+	<img src="f1.jpg"width="291"height="200"border="1"id="b4"onmouseover="oe();"onmouseout="e();">
+	
+	<body>
+	</body>
+</html>
